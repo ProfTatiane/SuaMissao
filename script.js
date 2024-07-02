@@ -1,3 +1,10 @@
+const caixaPrincipal = document.querySelector(".caixa-principal");
+const caixaPerguntas = document.querySelector(".caixa-perguntas");
+const caixaAlternativas = document.querySelector(".caixa-alternativas");
+const caixaResultado = document.querySelector(".caixa-resultado");
+const textoResultado = document.querySelector(".texto-resultado");
+
+
 const perguntas = [
     {
         enunciado: "Qual a importância da gamificação na educação para conscientizar os adolescentes sobre a importância de uma alimentação saudável e a prática de exercícios físicos, de modo a combater a obesidade na adolescência, enquanto também promovemos o uso de energias renováveis como parte das atividades educacionais?",
