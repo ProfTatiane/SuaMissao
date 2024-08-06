@@ -7,19 +7,49 @@ const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas = [
     {
-        enunciado: "Qual a importância da gamificação na educação para conscientizar os adolescentes sobre a importância de uma alimentação saudável e a prática de exercícios físicos, de modo a combater a obesidade na adolescência, enquanto também promovemos o uso de energias renováveis como parte das atividades educacionais?",
+        enunciado: "No Brasil, em 2022, a média nacional apontou que 31,2% dos adolescentes estavam com excesso de peso. Qual o primeiro pensamento?",
         alternativas: [
             {
-                texto: "Isso é muito importante para o mundo atual!",
-                afirmacao: "jogos educativos podem ser desenvolvidos onde os alunos assumem o papel de protagonistas, ganhando pontos por escolher alimentos saudáveis, participar de atividades físicas e completar desafios relacionados à energia renovável, como construir maquetes de painéis solares ou turbinas eólicas. Esse tipo de abordagem não só educa sobre hábitos saudáveis e sustentáveis, mas também cria uma experiência de aprendizado envolvente e divertida."
+                texto: "Isso é preocupante!",
+                afirmacao: "Ficou com receio de estar passando por essa situação."
             },
             {
-                texto: "Não tem tanta importância assim!",
-                afirmacao: "Esse três temas não estão totalemnte integrados!."
+                texto: "Isso é bom!",
+                afirmacao: "Pensou que pelo  menos agora os adolescentes não tem mais problemas para se alimentar."
             }
         ]
     },
+
+
+{
+    enunciado: "As estratégias de gamificação podem ser implementadas para conscientizar adolescentes sobre a adoção de práticas sustentáveis, como o uso de energia renovável, enquanto também incentivam hábitos saudáveis para combater a obesidade na adolescência?",
+    alternativas: [
+        {
+            texto: "É  importante a utilização de estratégias de gamificação, tais como: plataformas no ambiente escolar.",
+            afirmacao: "É um processo mais atraente  e estimula mudanças comportamentais ao integrar a aprendizagem com a aplicação prática do cotidiano do aluno e o uso de tecnologias."
+        },
+        {
+            texto: "A utilização de estratégias de gamificação não seriam eficazes para conscientizar os alunos.",
+            afirmacao: "Preocupado com que a abordagem possa simplificar questões complexas, reduzindo  a reflexão crítica dos alunos, devido a tendência pela educação tradicional."
+        }
+    ]
+},
+
+{
+    enunciado: "QUAL A IMPORTANCIA DAS ENERGIAS RENOVÁVEIS PARA O MUNDO?",
+    alternativas: [
+        {
+            texto: "É MUITO IMPORTANTE PARA O MUNDO ATUAL!",
+            afirmacao: "SÃO OPÇÕES INESGOTÁVEIS E SUSTENTÁVEIS SEM GERAR RESÍDUOS."
+        },
+        {
+            texto: "Não tem tanta importância assimNÃO TEM TANTA IMPORTANCIA ASSIM!",
+            afirmacao: "FALTA CONHECIMENTO PARA AS QUESTÕES AMBIENTAIS ATUAIS."
+        }
+    ]
+},
 ];
+
 
 let atual = 0;
 let perguntaAtual;
